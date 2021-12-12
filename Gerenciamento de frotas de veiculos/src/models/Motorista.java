@@ -11,7 +11,7 @@ class Motorista {
 	
 	public Motorista(String nome, String login, String senha, String licenca, int id, int cpf) {
 		
-		this.nome = nome;
+		this.setNome(nome);
 		this.setLogin(login);
 		this.setSenha(senha);
 		this.setLicenca(licenca);
