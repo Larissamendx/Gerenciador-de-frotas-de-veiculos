@@ -4,11 +4,24 @@ import java.util.Scanner;
 
 class MenuPrincipal {
 	
-	
-	public void menu() {
-		
+    /*private Administrativo adm;
+    private MotoristaMenu motor;
+
+    public MenuPrincipal() {
+        this.adm = new Administrativo();
+        this.motor = new MotoristaMenu();
+    } 
+    
+    public void main(String args[]) {
+        menu();
+    }*/
+
+            public void main(String args[]){
+
 		int opcao;
-		
+                Administrativo adm = new Administrativo();
+                MotoristaMenu motor = new MotoristaMenu();
+          	
 		Scanner sc = new Scanner(System.in);
 		 
 		do {
@@ -22,11 +35,11 @@ class MenuPrincipal {
 			
 			switch(opcao) {
 				case 1:
-					motorista.menu();
+					motor.menu();
 					break;
 			
 				case 2:
-					administrativo.menu();
+					adm.menu();
 					break;
 					
 				default:

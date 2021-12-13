@@ -8,6 +8,6 @@ package view;
  *
  * @author aacpm
  */
-public class GerenciarMotorista {
+public class GerenciarRota {
     
 }
